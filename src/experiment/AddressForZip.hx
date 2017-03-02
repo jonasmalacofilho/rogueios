@@ -72,7 +72,7 @@ class AddressForZip {
 						var fields = findTd(new haxe.xml.Fast(xml)).map(unescape);
 						trace('Logradouro ou nome: ${fields[0]}');
 						trace('Bairro ou distrito: ${fields[1]}');
-						trace('Localidate e UF: ${fields[2]}');
+						trace('Localidade/UF: ${fields[2]}');
 					}
 				query.onStatus =
 					function (status)
