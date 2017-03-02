@@ -1,0 +1,4 @@
+-neko bin/experiment.n
+-main experiment.AddressForZip
+-cp src
+
